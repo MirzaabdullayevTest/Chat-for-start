@@ -1,0 +1,45 @@
+{{!-- <h1 style="text-align: center;" >{{title}}</h1> --}}
+<div class="chat__second">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="chat__join_chat">
+                    <div class="chat__join__header">
+                        <div class="chat__logo">
+                            <span class="chat__logo__span"><i class="fas fa-comments"></i></span> Chatogram X
+                        </div>
+                        <a href="/" class="btn chat_exit"><span><i class="fal fa-sign-out-alt"></i></span> Chiqib
+                            ketish</a>
+                    </div>
+                    <div class="chat_main">
+                        <div class="chat__sidebar col-lg-4">
+                            <h4 class="chat__romname">Guruh nomi</h4>
+                            <h2 class="chat__room_name" id="room_name">
+                                PHP
+                            </h2>
+                            <h4 class="chat_users">Foydalanuvchilar</h4>
+                            <ul class="chat_userss" id="users">
+                                
+                            </ul>
+                        </div>
+                        <div class="chat__messages col-lg-8">
+                        </div>
+                    </div>
+                    <div class="chat_form_chat">
+                        <form id="chat-form" class="chat__form_chat">
+                            <input type="text" required placeholder="Xat yuborish" class="form-control chat__message">
+                            <button type="submit" class="btn chat2__form_btn"><i
+                                    class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js" integrity="sha512-BHtomM5XDcUy7tDNcrcX1Eh0RogdWiMdXl3wJcKB3PFekXb3l5aDzymaTher61u6vEZySnoC/SAj2Y/p918Y3w==" crossorigin="anonymous"></script>
+<script src="/jquery/dist/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="javascripts/main.js"></script>
